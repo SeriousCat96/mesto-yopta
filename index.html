@@ -6,7 +6,7 @@
   <meta name="description" content="Кенты">
   <meta name="keywords" content="html, css, БЭМ, yoptascript, YoptaScript">
   <meta name="author" content="Kent">
-  <title>Место</title>
+  <title>Кенты внатуре</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
@@ -35,14 +35,14 @@
   <section class="popup" id="edit-profile">
     <div class="form-view popup__view">
       <button class="button popup__close-button" type="button"></button>
-      <h2 class="form-view__title">Редактировать профиль</h2>
+      <h2 class="form-view__title">Редактировать профиль кента</h2>
       <form class="form-view__form" name="profile" method="POST" novalidate>
         <label class="form-view__field">
-          <input class="form-view__input" id="name" name="name" type="text" minlength="2" maxlength="40" placeholder="Имя" required>
+          <input class="form-view__input" id="name" name="name" type="text" minlength="2" maxlength="40" placeholder="Погоняло" required>
           <span class="error" id="name-error"></span>
         </label>
         <label class="form-view__field">
-          <input class="form-view__input" id="about" name="about" type="text" minlength="2" maxlength="200" placeholder="О себе" required>
+          <input class="form-view__input" id="about" name="about" type="text" minlength="2" maxlength="200" placeholder="Кто по жизни" required>
           <span class="error" id="about-error"></span>
         </label>
         <button class="button form-view__submit" type="submit">Сохранить</button>
@@ -52,14 +52,14 @@
   <section class="popup" id="add-card">
     <div class="form-view popup__view">
       <button class="button popup__close-button" type="button"></button>
-      <h2 class="form-view__title">Новое место</h2>
+      <h2 class="form-view__title">Новый кент</h2>
       <form class="form-view__form" name="card" method="POST" novalidate>
         <label class="form-view__field">
-          <input class="form-view__input" id="card-name" name="name" type="text" minlength="2" maxlength="30" placeholder="Название" required>
+          <input class="form-view__input" id="card-name" name="name" type="text" minlength="2" maxlength="30" placeholder="Погоняло" required>
           <span class="error" id="card-name-error"></span>
         </label>
         <label class="form-view__field">
-          <input class="form-view__input" id="card-url" name="url" type="url" placeholder="Ссылка на картинку" required>
+          <input class="form-view__input" id="card-url" name="url" type="url" placeholder="Ссылка на фотку" required>
           <span class="error" id="card-url-error"></span>
         </label>
         <button class="button form-view__submit" type="submit">Создать</button>
@@ -70,7 +70,7 @@
     <figure class="picture-view popup__view">
       <div class="picture-view__container">
         <button class="button popup__close-button" type="button"></button>
-        <img class="picture-view__image" src="#" alt="Изображение карточки">
+        <img class="picture-view__image" src="#" alt="Фото кента">
       </div>
       <figcaption class="picture-view__caption text-ellipsis"></figcaption>
     </figure>
@@ -79,7 +79,7 @@
     <li>
       <article class="card">
         <button class="button card__remove-button" type="button"></button>
-        <img class="card__image" src="" alt="Изображение карточки">
+        <img class="card__image" src="" alt="Фото кента">
         <h2 class="card__caption text-ellipsis"></h2>
         <button class="button card__like-button" type="button"></button>
       </article>
