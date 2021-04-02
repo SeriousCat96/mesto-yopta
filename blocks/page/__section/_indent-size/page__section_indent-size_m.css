@@ -1,0 +1,9 @@
+.page__section_indent-size_m {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .page__section_indent-size_m {
+    margin-bottom: 35px;
+  }
+}

@@ -1,0 +1,13 @@
+.content {
+  max-width: 882px;
+  width: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media screen and (max-width: 936px) {
+  .content {
+    max-width: 100%;
+  }
+}

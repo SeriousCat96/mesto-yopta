@@ -1,0 +1,11 @@
+.card__caption {
+  display: block;
+  max-width: 70%;
+  margin: 0 21px 21px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.21;
+}

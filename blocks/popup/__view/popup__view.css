@@ -1,0 +1,9 @@
+.popup__view {
+  margin: 0;
+  color: white;
+  max-width: 75vw;
+  cursor: default;
+  font-family: 'Inter', 'Verdana', sans-serif;
+  box-sizing: border-box;
+  position: relative;
+}

@@ -1,0 +1,16 @@
+@import url(./__image/picture-view__image.css);
+@import url(./__caption/picture-view__caption.css);
+@import url(./__container/picture-view__container.css);
+
+.picture-view {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

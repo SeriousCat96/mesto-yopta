@@ -1,0 +1,23 @@
+@import url(./__form/form-view__form.css);
+@import url(./__title/form-view__title.css);
+@import url(./__field/form-view__field.css);
+@import url(./__input/form-view__input.css);
+@import url(./__submit/form-view__submit.css);
+
+.form-view {
+  color: black;
+  background: white;
+  width: 100%;
+  max-width: 430px;
+  padding: 36px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 500px) {
+  .form-view {
+    max-width: 75vw;
+    padding: 30px 20px;
+  }
+}

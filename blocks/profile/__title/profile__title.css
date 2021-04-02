@@ -1,0 +1,20 @@
+.profile__title {
+  margin: 0;
+  padding: 0;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1.33;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__title {
+    font-size: 27px;
+    line-height: 2.07;
+    text-align: center;
+  }
+}

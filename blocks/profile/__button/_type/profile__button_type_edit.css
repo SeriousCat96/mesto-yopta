@@ -1,0 +1,15 @@
+.profile__button_type_edit {
+  width: 24px;
+  height: 24px;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  background: url(../../../../images/edit-icon.svg) center / 10px 10px no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__button_type_edit {
+    width: 18px;
+    height: 18px;
+  }
+}

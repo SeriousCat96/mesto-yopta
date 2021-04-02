@@ -1,0 +1,22 @@
+.profile__info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: minmax(-webkit-min-content, -webkit-max-content) 9px minmax(-webkit-min-content, -webkit-max-content);
+  -ms-grid-rows: minmax(min-content, max-content) 9px minmax(min-content, max-content);
+  grid-template-rows: repeat(2, minmax(-webkit-min-content, -webkit-max-content));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  -ms-grid-columns: 1fr 17px minmax(-webkit-min-content, -webkit-max-content);
+  -ms-grid-columns: 1fr 17px minmax(min-content, max-content);
+  grid-template-columns: 1fr minmax(-webkit-min-content, -webkit-max-content);
+  grid-template-columns: 1fr minmax(min-content, max-content);
+  grid-auto-flow: column;
+  gap: 9px 17px;
+  margin: 0 26px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__info {
+    margin: 0 0 36px;
+    gap: 0 6px;
+  }
+}

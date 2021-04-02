@@ -1,0 +1,23 @@
+@import url(./_indent-size/page__section_indent-size_s.css);
+@import url(./_indent-size/page__section_indent-size_m.css);
+
+.page__section {
+  max-width: 882px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Inter', 'Verdana', sans-serif;
+}
+
+@media screen and (max-width: 936px) {
+  .page__section {
+    max-width: 100%;
+    padding: 0 27px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__section {
+    padding: 0 19px;
+  }
+}

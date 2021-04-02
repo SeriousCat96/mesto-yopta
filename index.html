@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Кенты">
+  <meta name="keywords" content="html, css, БЭМ, yoptascript, YoptaScript">
+  <meta name="author" content="Kent">
+  <title>Место</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header page__section page__section_indent-size_s">
+      <img class="header__logo" src="./images/logo.jpg" alt="Лого">
+    </header>
+    <main class="content">
+      <section class="profile page__section page__section_indent-size_m">
+        <img class="profile__avatar" src="./images/avatar.jpg" alt="Аватар">
+        <div class="profile__info">
+          <h1 class="profile__title text-ellipsis">Кент</h1>
+          <p class="profile__subtitle text-ellipsis">Ровный чел</p>
+          <button class="button profile__button profile__button_type_edit" type="button"></button>
+        </div>
+        <button class="button profile__button profile__button_type_add" type="button"></button>
+      </section>
+      <section class="cards-grid page__section page__section_indent-size_m">
+        <ul class="list cards-grid__items"></ul>
+      </section>
+    </main>
+    <footer class="footer page__section page__section_indent-size_s">
+      <p class="footer__copyright">&copy; 2021 Yopta Russia</p>
+    </footer>
+  </div>
+  <section class="popup" id="edit-profile">
+    <div class="form-view popup__view">
+      <button class="button popup__close-button" type="button"></button>
+      <h2 class="form-view__title">Редактировать профиль</h2>
+      <form class="form-view__form" name="profile" method="POST" novalidate>
+        <label class="form-view__field">
+          <input class="form-view__input" id="name" name="name" type="text" minlength="2" maxlength="40" placeholder="Имя" required>
+          <span class="error" id="name-error"></span>
+        </label>
+        <label class="form-view__field">
+          <input class="form-view__input" id="about" name="about" type="text" minlength="2" maxlength="200" placeholder="О себе" required>
+          <span class="error" id="about-error"></span>
+        </label>
+        <button class="button form-view__submit" type="submit">Сохранить</button>
+      </form>
+    </div>
+  </section>
+  <section class="popup" id="add-card">
+    <div class="form-view popup__view">
+      <button class="button popup__close-button" type="button"></button>
+      <h2 class="form-view__title">Новое место</h2>
+      <form class="form-view__form" name="card" method="POST" novalidate>
+        <label class="form-view__field">
+          <input class="form-view__input" id="card-name" name="name" type="text" minlength="2" maxlength="30" placeholder="Название" required>
+          <span class="error" id="card-name-error"></span>
+        </label>
+        <label class="form-view__field">
+          <input class="form-view__input" id="card-url" name="url" type="url" placeholder="Ссылка на картинку" required>
+          <span class="error" id="card-url-error"></span>
+        </label>
+        <button class="button form-view__submit" type="submit">Создать</button>
+      </form>
+    </div>
+  </section>
+  <section class="popup" id="card-preview">
+    <figure class="picture-view popup__view">
+      <div class="picture-view__container">
+        <button class="button popup__close-button" type="button"></button>
+        <img class="picture-view__image" src="#" alt="Изображение карточки">
+      </div>
+      <figcaption class="picture-view__caption text-ellipsis"></figcaption>
+    </figure>
+  </section>
+  <template id="card-template">
+    <li>
+      <article class="card">
+        <button class="button card__remove-button" type="button"></button>
+        <img class="card__image" src="" alt="Изображение карточки">
+        <h2 class="card__caption text-ellipsis"></h2>
+        <button class="button card__like-button" type="button"></button>
+      </article>
+    </li>
+  </template>
+  <script src="./scripts/validate.ys" type="text/x-yoptascript"></script>
+  <script src="./scripts/homies.ys" type="text/x-yoptascript"></script>
+  <script src="./scripts/index.ys" type="text/x-yoptascript"></script>
+  <script src="./vendor/yopta/yopta.min.js"></script>
+</body>
+</html>

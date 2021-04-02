@@ -1,0 +1,17 @@
+@import url(./type/error_visible.css);
+
+.error {
+  color: #FF0000;
+  font-size: 12px;
+  line-height: 1.21;
+  opacity: 0;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .error {
+    font-size: 10px;
+  }
+}

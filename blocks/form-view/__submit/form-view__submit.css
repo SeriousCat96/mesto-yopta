@@ -1,0 +1,29 @@
+@import url(./_disabled/form-view__submit_disabled.css);
+
+.form-view__submit {
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  background: black;
+  border-radius: 2px;
+  border: none;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 1024px) {
+  .form-view__submit:hover {
+    opacity: .8;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form-view__submit {
+    font-size: 14px;
+    line-height: 1.21;
+    margin-top: 36px;
+  }
+}

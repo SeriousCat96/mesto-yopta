@@ -1,0 +1,22 @@
+@import url(./__remove-button/card__remove-button.css);
+@import url(./__image/card__image.css);
+@import url(./__caption/card__caption.css);
+@import url(./__like-button/_checked/card__like-button_checked.css);
+@import url(./__like-button/card__like-button.css);
+
+.card {
+  margin: 0;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  position: relative;
+}

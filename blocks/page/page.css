@@ -1,0 +1,21 @@
+@import url(./__section/page__section.css);
+
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 320px;
+  max-width: 1280px;
+  min-height: 100vh;
+  padding: 0 calc(50% - 640px);
+  background-color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

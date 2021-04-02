@@ -1,0 +1,9 @@
+@import url(./_type/profile__button_type_edit.css);
+@import url(./_type/profile__button_type_add.css);
+
+.profile__button {
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: transparent;
+}

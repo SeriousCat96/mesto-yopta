@@ -1,0 +1,10 @@
+.form-view__submit.form-view__submit_disabled {
+  color: rgba(0, 0, 0, .2);
+  border: 1px solid rgba(0, 0, 0, .2);
+  background: transparent;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

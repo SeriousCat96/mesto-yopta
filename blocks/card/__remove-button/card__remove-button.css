@@ -1,0 +1,9 @@
+.card__remove-button {
+  width: 18px;
+  height: 20px;
+  background: url(../../../images/delete-icon.svg) center / cover no-repeat;
+  border: none;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+}

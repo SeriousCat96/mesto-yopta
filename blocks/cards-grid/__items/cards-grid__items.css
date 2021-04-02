@@ -1,0 +1,13 @@
+.cards-grid__items {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-auto-flow: dense;
+  gap: 21px 18px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

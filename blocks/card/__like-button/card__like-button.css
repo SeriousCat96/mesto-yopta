@@ -1,0 +1,10 @@
+@import url(./_checked/card__like-button_checked.css);
+
+.card__like-button {
+  margin: 0 21px 21px auto;
+  width: 21px;
+  height: 19px;
+  border: none;
+  background: url(../../../images/like.svg) center / cover no-repeat;
+}
+
